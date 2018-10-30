@@ -1,0 +1,29 @@
+.add-item {
+   text-decoration: none;
+   color: #db2b2b;
+   font-size: 1.5rem;
+   display: block;
+   text-align: right;
+   transition: color .3s;
+}
+
+.add-item:hover {
+   color: rgb(77, 0, 0);
+}
+
+.checklist-item {
+   font-size: 1.25rem;
+   color: black;
+   transition: text-decoration .3s, color .3s
+}
+
+.checklist-item:hover {
+   color: lightgray;
+   text-decoration: line-through;
+}
+
+.checklist-item-done {
+   font-size: 1.25rem;
+   color: lightslategray;
+   text-decoration: line-through;
+}
