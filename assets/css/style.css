@@ -18,12 +18,16 @@
 }
 
 .checklist-item:hover {
-   color: lightgray;
+   color: lightslategray;
    text-decoration: line-through;
 }
 
 .checklist-item-done {
    font-size: 1.25rem;
-   color: lightslategray;
+   color: lightgray;
    text-decoration: line-through;
+}
+
+.items-list {
+   list-style: none;
 }
